@@ -13,3 +13,4 @@ total_classes = students * days
 percentage = (total_present / total_classes) * 100
 
 print("\nTotal Attendance Percentage of the Class =", percentage, "%")
+1

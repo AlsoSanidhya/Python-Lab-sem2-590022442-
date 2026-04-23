@@ -1,3 +1,4 @@
+#4.Create a GUI based task manager where users can add, edit and remove tasks. Use Tkinter (buttons, listbox), SQLite/MySQL (task storage).
 import tkinter as tk
 
 def add_task():

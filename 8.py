@@ -1,4 +1,4 @@
-#1.Create a simple Tkinter window with a title and fixed size.
+#1.Create a simple Tkinter window with a title and fixed size
 import tkinter as tk
 
 root = tk.Tk()

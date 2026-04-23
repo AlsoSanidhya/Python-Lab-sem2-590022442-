@@ -1,10 +1,12 @@
-s1 = {"Red", "Yellow", "Orange", "Blue"}
-s2 = {"Violet", "Blue", "Purple"}
+#1.Create a simple Tkinter window with a title and fixed size.
+import tkinter as tk
 
-a = s1 | s2      # Union
-b = s1 & s2      # Intersection
-c = s1 - s2      # Difference
+root = tk.Tk()
+root.title("Simple Window")
+root.geometry("400x300")  # Fixed size
+root.resizable(False, False)
 
-print("Union =", a)
-print("Intersection =", b)
-print("Difference =", c)
+label = tk.Label(root, text="Hello, Tkinter!", font=("Arial", 16))
+label.pack(pady=100)
+
+root.mainloop()

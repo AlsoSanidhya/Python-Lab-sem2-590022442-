@@ -1,3 +1,4 @@
+#3.Design a GUI for student registration for a course and store these details in a database. Use Tkinter for UI, SQLite/MySQL for database storage.
 import tkinter as tk
 import sqlite3
 
